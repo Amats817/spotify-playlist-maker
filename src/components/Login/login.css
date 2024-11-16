@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(18,18,18);
+    color: white;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../../images/login-bg.jpg') center center/cover no-repeat;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.top {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+#login-btn{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 30px;
+    background-color: rgb(159, 231, 159);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: black;
+    border: 1px solid transparent;
+}
+
+#login-btn:hover{
+    background-color: rgb(115, 182, 115);
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.footer hr{
+    border: 1px solid white;
+    width: 10rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.links{
+    display: flex;
+    gap: 1.2rem;
+}
+.links a{
+    font-size: 2rem;
+    color: white;
+}
+
+.links a:hover{
+    color: rgb(221, 221, 221);
+}
+

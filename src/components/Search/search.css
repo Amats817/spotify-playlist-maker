@@ -1,0 +1,205 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 20px;
+    justify-content: flex-start; 
+    width: 100%; 
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%; 
+    max-width: 600px; 
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.search-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(91, 112, 42);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #698d76;
+}
+
+.search-container {
+    margin: 3rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.result-playlist {
+    display: flex;
+    gap: 2rem; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.result-bg {
+    background-color: rgb(19, 22, 22);
+    padding: 2rem;
+    flex: 1; 
+}
+
+.results {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; 
+    margin-top: 5rem;
+}
+
+.result-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    text-align: left; 
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.result-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.result-info {
+    flex-grow: 1;
+}
+
+.result-info h3 {
+    margin: 0;
+    font-size: 16px;
+    word-wrap: break-word; 
+}
+
+.result-info p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.add-button {
+    margin-top: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(154, 219, 200);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: rgb(139, 199, 181);
+}
+
+.playlist-builder {
+    width: 30%;
+    background-color: rgb(40, 44, 44);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(40, 44, 44);
+    border-radius: 8px;
+}
+
+.playlist-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.playlist-info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.remove-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(236, 112, 90);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: rgb(240, 130, 111);
+}
+
+.playlist-name{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.create-playlist {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playlist-name-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.create-playlist-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(91, 112, 42);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 300px;
+}
+
+.create-playlist-button:hover {
+    background-color: #698d76;
+}
+
+.create-playlist-button:disabled {
+    background-color: #5a6d47;
+    cursor: not-allowed;
+}
+
