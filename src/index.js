@@ -5,21 +5,21 @@ import App from './App';
 import Login from './components/Login/Login';
 import Callback from './Callback';
 import Error from './components/Error/Error'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Login />,
     errorElement: <Error />,
   },
   {
-    path: "/callback", 
+    path: "/callback",
     element: <Callback />,
   },
   {
-    path: "/main", 
+    path: "/main",
     element: <App />,
   },
 ]);
