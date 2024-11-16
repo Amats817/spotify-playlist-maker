@@ -16,7 +16,7 @@ const Callback = () => {
             // example: const token = localStorage.getItem("spotifyAccessToken");
 
             // Redirect to the main app
-            navigate("/main");
+            navigate("/spotify-playlist-maker/main");
         } else {
             console.error("Access token not found in URL");
         }
