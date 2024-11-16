@@ -5,21 +5,21 @@ import App from './App';
 import Login from './components/Login/Login';
 import Callback from './Callback';
 import Error from './components/Error/Error'
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/spotify-playlist-maker/",
     element: <Login />,
     errorElement: <Error />,
   },
   {
-    path: "/callback",
+    path: "/spotify-playlist-maker/callback", 
     element: <Callback />,
   },
   {
-    path: "/main",
+    path: "/spotify-playlist-maker/main", 
     element: <App />,
   },
 ]);
