@@ -12,7 +12,7 @@ A web application built with **React** that allows users to create custom Spotif
 ---
 
 ## Live Server 📺
-https://amats817.github.io/spotify-playlist-maker/main
+https://amats817.github.io/spotify-playlist-maker
 ---
 
 ## Installation 🛠️
