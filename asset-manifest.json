@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/spotify-playlist-maker/static/css/main.6121117f.css",
+    "main.css": "/spotify-playlist-maker/static/css/main.0eccb388.css",
     "main.js": "/spotify-playlist-maker/static/js/main.2fb06014.js",
     "static/media/login-bg.jpg": "/spotify-playlist-maker/static/media/login-bg.9429709833b024817a8f.jpg",
     "index.html": "/spotify-playlist-maker/index.html",
-    "main.6121117f.css.map": "/spotify-playlist-maker/static/css/main.6121117f.css.map",
+    "main.0eccb388.css.map": "/spotify-playlist-maker/static/css/main.0eccb388.css.map",
     "main.2fb06014.js.map": "/spotify-playlist-maker/static/js/main.2fb06014.js.map"
   },
   "entrypoints": [
-    "static/css/main.6121117f.css",
+    "static/css/main.0eccb388.css",
     "static/js/main.2fb06014.js"
   ]
 }
